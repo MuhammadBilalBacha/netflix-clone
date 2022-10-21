@@ -1,0 +1,40 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: 20px;
+
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    /* height: 10px; */
+    /* padding: 5px; */
+}
+.nav__black {
+    background-color: #111;
+}
+.nav_top {
+    color: rgb(188, 21, 21);
+    font-size: 1rem;
+    font-weight: 700;
+    /* position: fixed; */
+    left: 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.nav_logo {
+    width: 30px;
+    object-fit: contain;
+
+}
+.nav_avator {
+    width: 30px;
+    margin-top: 2px;
+    height: 15px;
+    /* position: fixed; */
+    object-fit: contain;
+    right: 20px;
+}
